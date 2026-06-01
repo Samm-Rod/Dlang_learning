@@ -1,0 +1,17 @@
+.dub
+docs.json
+__dummy.html
+docs/
+/learn_d
+learn_d.so
+learn_d.dylib
+learn_d.dll
+liblearn_d.a
+learn_d.a
+learn_d.lib
+learn_d-test-*
+*.exe
+*.pdb
+*.o
+*.obj
+*.lst

@@ -1,0 +1,9 @@
+{
+	"description": "A minimal D application.",
+	"license": "proprietary",
+	"authors": [
+		"samuel_Rod_A"
+	],
+	"copyright": "Copyright © 2026, samuel_Rod_A",
+	"name": "learn_d"
+}
