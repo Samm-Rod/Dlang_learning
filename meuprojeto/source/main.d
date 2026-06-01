@@ -1,26 +1,16 @@
 module main;
 
 import std.stdio;
-import app.enums;
 
-int main(string[] args){
+import app.services.UserService;
 
-    // Enum 
-    Days day;
-    Days2 day2;
+void main(string[] args){
 
-    day = Days.mon;
-    
+    auto service = new UserService();
 
-    writeln("Current Day: %d ", day);
-    writeln("Friday : %d", Days.fri);
+    auto usuario = service.criarUsuario("Samuel","0001");
 
-    writeln("Min: %d", Days2.min);
-    writeln("Max: %d", Days2.max);
+    service.deposito(usuario,500);
 
-    writeln("Size of: %d", Days2.sizeof);
-    
-
-
-    return 0;
+    writeln("Saldo: ", usuario.conta.saldo);
 }
