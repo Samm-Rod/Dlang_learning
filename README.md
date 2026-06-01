@@ -1,4 +1,4 @@
-# D/Dlang minha nova linguagem alternativa de hobby
+# D/Dlang minha nova linguagem alternativa de hobby 01/06/2026 -> 09h05 am
 
 ## Instalação do compilador
 ### O compilador oficial é o DMD. No Linux/macOS:
