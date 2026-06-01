@@ -1,4 +1,4 @@
-# D/Dlang meu novo xodó
+# D/Dlang minha nova linguagem alternativa de hobby
 
 ## Instalação do compilador
 ### O compilador oficial é o DMD. No Linux/macOS:
